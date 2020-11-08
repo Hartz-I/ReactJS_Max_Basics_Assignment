@@ -34,15 +34,15 @@ class App extends Component {
           userid: "1234",
         },
         {
-          username: event.target.value,
+          username: "ahnaf",
           userid: "2434",
         },
         {
-          username: event.target.value,
+          username: "sadik",
           userid: "5423",
         },
         {
-          username: event.target.value,
+          username: "Inan",
           userid: "6343",
         },
       ],
@@ -68,6 +68,26 @@ class App extends Component {
         <UserOutput
           username={this.state.userinfo[2].username}
           userid={this.state.userinfo[2].userid}
+        />
+        <UserOutput
+          username={this.state.userinfo[3].username}
+          userid={this.state.userinfo[3].userid}
+        />
+        <UserOutput
+          username={this.state.userinfo[3].username}
+          userid={this.state.userinfo[3].userid}
+        />
+        <UserOutput
+          username={this.state.userinfo[3].username}
+          userid={this.state.userinfo[3].userid}
+        />
+        <UserOutput
+          username={this.state.userinfo[3].username}
+          userid={this.state.userinfo[3].userid}
+        />
+        <UserOutput
+          username={this.state.userinfo[3].username}
+          userid={this.state.userinfo[3].userid}
         />
         <UserOutput
           username={this.state.userinfo[3].username}
